@@ -504,8 +504,83 @@ nav {
 
 
 /* ============================
-        Common CSS End
+        Location CSS Start
 ============================= */
+#location {
+    padding: 150px 0;
+}
+.location_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 145px;
+}
+.location_container .section_header {
+    text-align: left;
+}
+.location_container .text p {
+    padding-bottom: 70px;
+    font-size: 20px;
+    color: var(--white);
+    line-height: 1.5;
+}
+.location_container .map iframe {
+    border-radius: 12px;
+}
 /* ============================
-        Common CSS End
+        Location CSS End
+============================= */
+
+
+/* ============================
+        Footer CSS Start
+============================= */
+footer {
+    padding: 80px 0;
+    background: var(--black-19);
+}
+
+.footer_content {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.footer_content .item h3 {
+    color: var(--white);
+    font-size: 24px;
+    line-height: 1;
+    padding-bottom: 30px;
+}
+.footer_content .item ul li {
+    margin-bottom: 24px;
+}
+.footer_content .item ul li:last-child {
+    margin-bottom: 0;
+}
+.footer_content .item ul li a {
+    color: var(--white);
+    font-size: 18px;
+    line-height: 1.5;
+}
+.payment_image {
+    width: 210px;
+}
+.payment_image img {
+    width: 100%;
+}
+.footer_bottom_side {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-top: 1px solid #4F4F4F;
+}
+.footer_bottom_side .social_link {
+    display: flex;
+    gap: 12px;
+}
+/* ============================
+        Footer CSS End
 ============================= */
